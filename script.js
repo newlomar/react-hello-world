@@ -1,9 +1,11 @@
 class App extends React.Component {
 
-    state = {colors: {
-        color: '#000',
-        backgroundColor: '#FF0'
-    }}
+    state = {
+        colors: {
+            color: '#000',
+            backgroundColor: '#FF0'
+        }
+    }
     
     //função baseada nesse artigo: http://alienryderflex.com/hsp.html
     isDarkColor(r, g ,b) {
